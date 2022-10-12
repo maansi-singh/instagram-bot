@@ -1,0 +1,3 @@
+run open -e ~/.zshrc
+
+add the code : export pass="yourpassword"

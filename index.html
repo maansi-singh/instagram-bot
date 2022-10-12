@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script>
+
+            function ready(){
+                //let button = document.getElementById("mybutton");
+                let button = document.querySelector("div#div1 > div#div2 > button#button1");
+                button.onclick = () =>{
+                    alert("hi")
+                };
+
+                /*
+                    # = id
+                    . = class
+                */
+
+
+            }
+            
+        </script>
+
+
+    </head>
+    <body onload="ready()">
+        <h1>This Is A Header</h1>
+        <p>This is A Paragraph</p>
+
+
+        <div id = "div1">
+            <div id = "div2">
+                <button id = "button1">Click Me!</button>
+            </div>
+        </div>
+
+
+
+    </body>
+</html>

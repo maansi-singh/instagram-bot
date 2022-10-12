@@ -1,0 +1,19 @@
+ctrl + c : ignores the current line's input
+        Example:
+        having pythno3 main.py and running ctrl+c will just ignore the line and create a new line as if it were commented out
+
+open -e filename: opens a file with the textedit program
+        Example:
+        open -e file.txt
+        open -e /Users/nikhil/Documents/file.txt
+
+If any command needs a file as an input, you can use .. to go 1 directory above, or use the full directory path
+        Example:
+        open -e file.txt
+        open -e ../file.txt
+        open -e ../../file.txt # this goes up two directories
+
+man : shows the manual pages for any command
+        Example:
+        man python3
+        man open
